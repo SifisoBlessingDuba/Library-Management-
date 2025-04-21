@@ -8,9 +8,17 @@ class RegistrationFactoryTest {
     void CreateRegistration() {
         Registration reg = RegistrationFactory.createRegistration(
                 "Sifiso",
+                "Duba",
                 "223072559@mycput.ac.za",
-                "223072559",
-                "14:00");
+                "071 444 6184",
+                true,
+                1234,
+                "10:00 - 11:00",
+                1
+
+
+        );
+
         assertNotNull(reg);
     }
 }
